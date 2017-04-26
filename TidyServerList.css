@@ -32,12 +32,12 @@
     top: 31%;
 }
 
-.guilds-wrapper .guilds .guild:not(:first-child):not(.selected) div {
+.guilds-wrapper .guilds .guild:not(:first-child):not(.selected) div:not(.badge) {
     transition: height 0.5s;
     -webkit-transition: height 0.5s;
 }
 
-.guilds-wrapper .guilds .guild:not(:first-child):not(.selected):hover div {
+.guilds-wrapper .guilds .guild:not(:first-child):not(.selected):hover div:not(.badge) {
     height: 50px;
     transform: scale(1.2);
     -webkit-transform: scale(1.2);
@@ -48,4 +48,14 @@
 
 .guilds-wrapper .guilds .guild:not(:first-child):not(.selected):hover {
     z-index: 3;
+}
+
+.guilds-wrapper .guilds .guild .badge {
+    bottom: 14px;
+}
+
+.guilds-wrapper .guilds .guild:not(:first-child):not(.selected):hover .badge {
+    transform:scale(1.35);
+    bottom: 19px;
+    right: -7px;
 }
