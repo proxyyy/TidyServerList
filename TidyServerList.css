@@ -1,0 +1,40 @@
+.guilds-wrapper .guilds .guild.selected:before {
+    margin-top: -10px;
+}
+
+.guilds-wrapper .guilds .guild.selected {
+    z-index: 2;
+}
+
+.guilds-wrapper .guilds .guild.unread:not(.selected)::before {
+    margin-top: 1px;
+    height: 15px;
+    border-radius: 10px;
+}
+
+.guilds-wrapper .guilds .guild:not(.guilds-add) {
+    height: 30px;
+}
+
+.guilds-wrapper .guilds .guild:first-child {
+    height: 50px;
+}
+
+.guilds-wrapper .guilds .guild.selected::before {
+    animation: selectserver 0.4s cubic-bezier(1, 0, 1, 0);
+    -webkit-animation: selectserver 0.4s cubic-bezier(1, 0, 1, 0);
+}
+
+.guilds-wrapper .guilds .guild:not(:first-child) {
+    transition: height 0.5s;
+    -webkit-transition: height 0.5s;
+}
+
+.guilds-wrapper .guilds .guild:not(:first-child):hover {
+    height: 50px;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transition: height 0.5s;
+    -webkit-transition: height 0.5s;
+    z-index: 3;
+}
