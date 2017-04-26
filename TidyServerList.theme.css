@@ -1,4 +1,4 @@
-//META{"name":"Tidy Server List","description":"Makes the server list a lot tidier while still maintaining ease of use.","author":"Qwerasd","version":"1.3"}*//{}
+//META{"name":"Tidy Server List","description":"Makes the server list a lot tidier while still maintaining ease of use.","author":"Qwerasd","version":"1.4"}*//{}
 /*
 There's a comment here for no reason.
 */
@@ -33,11 +33,14 @@ There's a comment here for no reason.
 
 .guilds-wrapper .guilds .guild:not(:first-child) {
     transition: height 0.5s;
+    -webkit-transition: height 0.5s;
 }
 
 .guilds-wrapper .guilds .guild:not(:first-child):hover {
     height: 50px;
     transform: scale(1.2);
+    -webkit-transform: scale(1.2);
     transition: height 0.5s;
+    -webkit-transition: height 0.5s;
     z-index: 3;
 }
