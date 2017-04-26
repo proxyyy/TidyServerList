@@ -28,6 +28,10 @@
     -webkit-animation: selectserver 0.4s cubic-bezier(1, 0, 1, 0);
 }
 
+.guilds-wrapper .guilds .guild.selected:hover::before {
+    top: 30%;
+}
+
 .guilds-wrapper .guilds .guild:not(:first-child) {
     transition: height 0.5s;
     -webkit-transition: height 0.5s;
