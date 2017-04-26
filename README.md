@@ -15,7 +15,4 @@ TidyServerList is a theme for BetterDiscord that makes the server list a lot cle
 </ul>
 
 # How to update:
-<ul>
-<li> Step 1, remove the existing version of the theme from your themes folder</li>
-<li> Step 2, see <b>How to install</b></li>
-</ul>
+<ul><li>No need! Themes can be dynamically changed and will just grab from github by themselves.</li></ul>
