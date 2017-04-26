@@ -1,5 +1,5 @@
 # TidyServerList
-TidyServerList is a theme for BetterDiscord that makes the server list a lot cleaner and tidier, improved functionality in reduced space.!
+TidyServerList is a theme for BetterDiscord that makes the server list a lot cleaner and tidier, improved functionality in reduced space!
 
 # <a href="https://raw.githubusercontent.com/qwerasd205/TidyServerList/master/TidyServerList.theme.css">Download</a>
 
