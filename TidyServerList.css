@@ -29,7 +29,7 @@
 }
 
 .guilds-wrapper .guilds .guild.selected:hover::before {
-    top: 30%;
+    top: 31%;
 }
 
 .guilds-wrapper .guilds .guild:not(:first-child) {
