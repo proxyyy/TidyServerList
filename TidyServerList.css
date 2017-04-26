@@ -4,6 +4,9 @@
 
 .guilds-wrapper .guilds .guild.selected {
     z-index: 2;
+    transform: scale(1.1);
+    margin: 10px;
+    margin-left: 5px;
 }
 
 .guilds-wrapper .guilds .guild.unread:not(.selected)::before {
